@@ -9,6 +9,14 @@ public class ClientReceiver extends Thread{
 	while(true){
 	    try{
 		//Read in message and print if not null
+		String message;
+		if((message = in.readLine()) != null){
+			System.out.println(message);
+			ChatServer.messages.add(message);
+		}
+		else{
+			Thread.sleep(100);
+		}
 	        //Sleep for 100 miliseconds if message is null
 	    }catch(Exception e){
 		System.out.println("ClientReceiver: " + e);

@@ -1,0 +1,20 @@
+This project was very interesting to work on.
+
+I believe working with the ChatClient and ChatServer really helped solidify my understanding of Sockets and how they communicate.
+
+Originally, I was unsure what the ClientReceiver was supposed to do but after completing all the other parts of the program I was able 
+to figure it out and now makes perfect sense.
+
+I also believe that working with the ServerInputThread abd ServerOutputThread helped me develop a better understanding of threads.
+
+Overall with the Chat classes and Server classes I feel like I've gained a much better understanding of I/O and how it works.
+
+One of the hardest parts of this project was trying to debug and figure out what was wrong with the code. For me it was difficult trying
+to figure out where I had an issue in my code. One of the biggest errors I encountered was after both Clients connected the messages from one
+client wasn't being broadcasted to the other client. I spent hours looking through my code trying to switch things up and just testing but in 
+the end I found the error by following through the code and writing down what was going on in a notebook. Although I eventually fixed the error
+it was really frustrating after realizing it was 1 line of code that I forgot (flushing userInput into the outputStream). This however taught me
+alot about coding and how you really have to pay attention to detail when coding something so that you can avoid spending hours trying to debug.
+
+Overall I found this project really interesting as it felt like a real project with a purpose rather than just manipulating a virtual zoo
+like the previous projects.
